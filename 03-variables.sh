@@ -2,4 +2,4 @@
 
 DATE=$(date)
 
-echo "date and time is :${DATE}"
+echo "Script Started Executing :${DATE}"
