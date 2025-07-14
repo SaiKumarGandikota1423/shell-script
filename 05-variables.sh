@@ -6,8 +6,8 @@ read -s USERNAME #the value entered above will be automatically attached to USER
 
 echo "Username is: $USERNAME" # I am printing just for validation, you shoud not print username and password
 
-echo "Please enter your password"
+echo "Please enter your password::"
 
-read -s PASSWORD #the value entered above will be automatically attached to PASSWORD variable
+read -s PASSWORD 
 
-echo "Username is: $PASSWORD" # I am printing just for validation, you shoud not print username and password
+echo "Username is: $USENAME, Password is: $PASSWORD" # I am printing just for validation, you shoud not print username and password
