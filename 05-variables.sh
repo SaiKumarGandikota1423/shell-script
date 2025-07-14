@@ -8,4 +8,4 @@ echo "Please enter your password::"
 
 read -s PASSWORD 
 
-echo "Username is: $USENAME, Password is: $PASSWORD" # I am printing just for validation, you shoud not print username and password
+echo "Username is: $USERNAME, Password is: $PASSWORD" # I am printing just for validation, you shoud not print username and password
