@@ -21,8 +21,8 @@ fi #fi means reverse of if, it idicates the condition end
 
 yum install mysql -y
 
-VALIDATE
+VALIDATE $? "Installing MySQL"
 
 yum install git -y
 
-VALIDATE
+VALIDATE $? "Installing Git"
