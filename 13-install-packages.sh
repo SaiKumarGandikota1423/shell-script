@@ -6,7 +6,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-TIMESTAM=$(date +%F-%H-%M-%S)
+TIMESTAMP=$(date +%F-%H-%M-%S)
 LOGFILR="/tmp/$0-$TIMESTAMP.log"
 
 echo "Script started executing at $TIMESTAMP" &>> $LOGFILE
@@ -16,7 +16,7 @@ VALIDATE (){
     then 
         echo -e "$2 ... $R FAILED $N"
     else 
-        echo -e "   $2 ... $R SUCCESS $N"
+        echo -e "$2 ... $R SUCCESS $N"
     fi
 }
 
