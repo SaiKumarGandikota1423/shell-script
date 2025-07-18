@@ -2,12 +2,12 @@
 
 ID=$(id -u)
 
-if [ ID -ne 0 ]
+if [ $ID -ne 0 ]
 then 
     echo -e "$R ERROR:: Please run this script with root access $N"
     exit 1 # you can give other than 0
 else
-    echo "Yoi are the root user"
+    echo "You are the root user"
 fi # fi menas reverse of if, indicating condition end
 
 echo "All arguments passed: $@"
