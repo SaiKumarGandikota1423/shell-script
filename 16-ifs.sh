@@ -6,7 +6,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-if [ ! -d $file] # ! denotes opposite
+if [ ! -d $file ] # denotes opposite
 then
     echo -e "$R Source directory: $file does not exit. $N"
 fi
