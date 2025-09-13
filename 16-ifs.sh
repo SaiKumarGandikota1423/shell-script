@@ -11,7 +11,7 @@ then
     echo -e "$R Source directory: $file does not exit. $N"
 fi
 
-while IFS=":" read -r username paasowrd user_id group_if user_fullname home_dir shell_path
+while IFS=":" read -r username password user_id group_if user_fullname home_dir shell_path
 do
     echo "username: $username"
     echo "user_ID: $user_id"
