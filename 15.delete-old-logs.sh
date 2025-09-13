@@ -7,7 +7,7 @@ SOURCE_DIR="/tmp/shellscript-logs"
     Y="\e[33m"
     N="\e[0m"
 
-if [ ! -d $SOURCE_DIR ] # ! denotes opposite
+if [ ! -d "$SOURCE_DIR" ] # ! denotes opposite
 then
     echo -e "$R Source directory: $SOURCE_DIR doesnot exist. $N"
 fi
